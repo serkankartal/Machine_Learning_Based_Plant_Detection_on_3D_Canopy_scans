@@ -31,7 +31,7 @@ Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and 
 
    - Create inference grap
      - For example: python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-20000 --output_directory inference_graph
-  - move the created "inference graph"  file under the "Plant_Detection" directory 
+   - move the created "inference graph"  file under the "Plant_Detection" directory 
 
 2. Testing
    - Execute "Plant_Detection" folder 
