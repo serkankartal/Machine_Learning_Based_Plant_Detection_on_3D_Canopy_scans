@@ -8,6 +8,7 @@ This repository implements the paper "Machine Learning Based Plant Detection Alg
 - Python 3.6
 - Tensorflow 1.14
 - Pyqt5 5.15.4
+- Others
 
 ## Introduction 
 The study intended to take advantage of the recent development in ML approaches and attempt to build alternative and more flexible PlantEye data processing architecture. The main objective was to automatically count plants from complex canopy scans.
@@ -21,8 +22,19 @@ Our proposals included:
 Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and chickpea detection results for randomly selected five test images and their original views
 ![Results](/docs/results.JPG)
 
-## Usage
+## Run
+1. If you want to retrain models, first go "plant_detection_folder",  (**Skip this step if you want to work with the pre-trained model**)
+  - Training 
+    - Run python model_main.py --alsologtostderr --model_dir=training/ --pipeline_config_path=training/[model name]
+    - For Example: python model_main.py --alsologtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
 
+
+  - Create inference grap
+    - For example: python export_inference_graph.py --input_type image_tensor --pipeline_config_path training/faster_rcnn_inception_v2_coco.config --trained_checkpoint_prefix training/model.ckpt-20000 --output_directory inference_graph
+  - move the created "inference graph"  file under the "whole_pipeline" directory 
+
+2. Under Plant Detection Folder
+5. 
 ## Pretrained models
 
 ## Citing
