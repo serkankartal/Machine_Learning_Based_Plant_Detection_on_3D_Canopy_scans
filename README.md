@@ -12,7 +12,7 @@ This repository implements the paper "Machine Learning Based Plant Detection Alg
 ## Introduction 
 The study intended to take advantage of the recent development in ML approaches and attempt to build alternative and more flexible PlantEye data processing architecture. The main objective was to automatically count plants from complex canopy scans.
 
-Our proposals combine these two mechanisms by
+Our proposals included: 
 1. Development of a 3D point cloud segmentation algorithm to separate plants from their surroundings
 2. Development of ML-based mung bean and chickpea plant detection models  
 3. Evaluation of the proposed pipeline performance
