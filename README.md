@@ -23,7 +23,7 @@ Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and 
 ![Results](/docs/results.JPG)
 
 ## Run
-1. If you want to retrain models, first go "plant_detection_folder",  (**Skip this step if you want to work with the pre-trained model**)
+1. If you want to retrain models, first go "plant_detection_models",  (**Skip this step if you want to work with the pre-trained model**)
    - Training 
      - Run python model_main.py --alsologtostderr --model_dir=training/ --pipeline_config_path=training/[model name]
      - For Example: python model_main.py --alsologtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_coco.config
