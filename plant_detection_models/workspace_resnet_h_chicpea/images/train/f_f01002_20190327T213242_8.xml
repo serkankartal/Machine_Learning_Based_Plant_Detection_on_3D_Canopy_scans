@@ -1,0 +1,38 @@
+<annotation>
+	<folder>f</folder>
+	<filename>f_f01002_20190327T213242_8.jpg</filename>
+	<path>C:\Sunita\Desktop-ICRISAT\Proposals\ECR Award-2018\CZU\chickpea_images_plant count Serkan\f\f01002_20190327T213242_8.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>768</width>
+		<height>432</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>chickpea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>166</ymin>
+			<xmax>402</xmax>
+			<ymax>246</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>chickpea</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>406</xmin>
+			<ymin>178</ymin>
+			<xmax>465</xmax>
+			<ymax>280</ymax>
+		</bndbox>
+	</object>
+</annotation>
