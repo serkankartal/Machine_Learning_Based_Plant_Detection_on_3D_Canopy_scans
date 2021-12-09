@@ -1,5 +1,5 @@
 # Machine_Learning_Based_Plant_Detection_on_3D_Canopy_scans
-This repository implements the paper ["Machine Learning Based Plant Detection Algorithms to Automate Counting Tasks using 3D Canopy scans"] (https://www.mdpi.com/1424-8220/21/23/8022) 
+This repository implements the paper ["Machine Learning Based Plant Detection Algorithms to Automate Counting Tasks using 3D Canopy scans"](https://www.mdpi.com/1424-8220/21/23/8022) 
 
 ![Flowchart of the plant counting pipeline](/docs/flowchart.JPG)
 
