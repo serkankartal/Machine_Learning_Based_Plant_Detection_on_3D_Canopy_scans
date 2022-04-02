@@ -41,3 +41,4 @@ Faster RCNN Inception-v2 and Faster RCNN ResNet50 models produced mung bean and 
 
 
 ## Citing
+Kartal, S., Choudhary, S., Stočes, M., Šimek, P., Vokoun, T., & Novák, V. (2020). Segmentation of bean-plants using clustering algorithms. AGRIS on-line Papers in Economics and Informatics, 10(665-2021-561), 36-43.
